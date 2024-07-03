@@ -12,14 +12,14 @@ main color : 00d779
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
-  
 
-.heading{
+
+.heading {
     font-size: 48px;
     font-weight: 600;
 }
 
-.subheading{
+.subheading {
     font-size: 16px;
 }
 
@@ -43,3 +43,25 @@ main color : 00d779
 }
 
 
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5em;
+}
+
+.footer a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
