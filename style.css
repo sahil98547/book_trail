@@ -65,3 +65,36 @@ main color : 00d779
     text-decoration: none;
     color: #fff;
 }
+
+.feature-img{
+    position: relative;
+}
+
+
+.feature-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+
+.feature-img::after {
+    content: 'Hover to see'; /* Example content for ::after */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
