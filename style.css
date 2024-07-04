@@ -21,7 +21,7 @@ main color : 00d779
     font-size: 16px;
 }
 
-.title-heading{
+.title-heading {
     font-size: 24px;
 }
 
@@ -68,6 +68,7 @@ main color : 00d779
     color: #fff;
     font-size: 14px;
 }
+
 /* 
 .feature-img{
     position: relative;
@@ -126,7 +127,27 @@ main color : 00d779
 
 
 
-.footer-title{
+.footer-title {
     font-size: 1.25rem;
 }
 
+
+
+/*  media query for pad having size of 1024 */
+
+@media (max-width:1024px) {
+    .footer .col-md-4 img {
+        padding-left: 0px;
+        padding-bottom: 5px;
+    }
+
+    .footer .col-md-4 h4{
+        font-size: 16px;
+    }
+
+    .social-icons{
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+
+}
