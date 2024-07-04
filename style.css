@@ -68,7 +68,7 @@ main color : 00d779
     color: #fff;
     font-size: 14px;
 }
-
+/* 
 .feature-img{
     position: relative;
 }
@@ -99,7 +99,32 @@ main color : 00d779
     padding-bottom: 45%;
     background-color: #00d779;
     z-index: -1;
+} */
+
+
+.background-image-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 443px;
+    width: 449px;
+    z-index: -10;
 }
+
+
+.background-image-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 441px;
+    width: 449px;
+    z-index: -10;
+}
+
+
+
 
 .footer-title{
     font-size: 1.25rem;
