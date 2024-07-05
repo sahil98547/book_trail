@@ -11,7 +11,6 @@ main color : 00d779
     font-family: "Montserrat", sans-serif;
 }
 
-
 .heading {
     font-size: 48px;
     font-weight: 600;
@@ -46,7 +45,6 @@ main color : 00d779
     width: 105%;
 }
 
-
 .social-icons {
     display: flex;
     gap: 10px;
@@ -71,16 +69,14 @@ main color : 00d779
     font-size: 14px;
 }
 
-.background-image-left {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 443px;
-    width: 449px;
-    z-index: -10;
+.footer img{
+    margin-left: -70px !important;
 }
 
+.footer h4{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
 
 .background-image-right {
     position: absolute;
@@ -92,10 +88,22 @@ main color : 00d779
     z-index: -10;
 }
 
-
 .footer-title {
     font-size: 1.25rem;
+    padding-left: 0px;
 }
+
+.footer-border{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 50px 70px;
+    padding-bottom: 10px;
+}
+
+.footer h5{
+    font-size: 16px;
+}
+
 
 /*  media query for pad having size of 1024 */
 
