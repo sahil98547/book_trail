@@ -26,10 +26,7 @@ main color : 00d779
 }
 
 .border-content {
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 30px;
 }
 
 .border-img {
@@ -37,11 +34,16 @@ main color : 00d779
     border-bottom-right-radius: 30px;
 }
 
-.main-banner {
-    background: url(./img/main.jpg);
-    background-size: cover;
-    border-radius: 25px;
-    background-position-y: -100px;
+.main-banner img {
+    position: absolute;
+    height: 100%;
+    left: -38px;
+    overflow: scroll;
+    z-index: -2;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    transform: scaleX(1.1);
+    width: 105%;
 }
 
 
@@ -69,40 +71,6 @@ main color : 00d779
     font-size: 14px;
 }
 
-/* 
-.feature-img{
-    position: relative;
-}
-
- .feature-img::before {
-    content: "";
-    display: block;
-    border-radius: 40%;
-    position: absolute;
-    top: 22%;
-    left: 39%;
-    width: 60%;
-    height: 317px;
-    padding-bottom: 45%;
-    background-color: #00d779;
-    z-index: -1;
-}
-
-.feature-img::after {
-    content: "";
-    display: block;
-    border-radius: 40%;
-    position: absolute;
-    bottom: 22%;
-    right: 16%;
-    width: 60%;
-    height: 317px;
-    padding-bottom: 45%;
-    background-color: #00d779;
-    z-index: -1;
-} */
-
-
 .background-image-left {
     position: absolute;
     top: 50%;
@@ -125,29 +93,114 @@ main color : 00d779
 }
 
 
-
-
 .footer-title {
     font-size: 1.25rem;
 }
-
-
 
 /*  media query for pad having size of 1024 */
 
 @media (max-width:1024px) {
     .footer .col-md-4 img {
-        padding-left: 0px;
+        margin-left: 0px !important;
         padding-bottom: 5px;
     }
 
-    .footer .col-md-4 h4{
-        font-size: 16px;
+    .footer .col-md-4 h4 {
+        font-size: 16px !important;
     }
 
-    .social-icons{
-        padding-left: 0px;
+    .social-icons {
+        padding-left: 0px !important;
         padding-top: 5px;
     }
 
+    .footer row {
+        padding: 45px;
+    }
+}
+
+/*  media query for mobile having size of 1024 */
+
+@media (max-width: 820px) {
+    .heading {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .subheading {
+        font-size: 14px;
+    }
+
+    .sports-infrastructure img {
+        width: 100%;
+    }
+
+    .footer .row {
+        padding: 40px;
+    }
+
+    .footer img {
+        width: 100%;
+    }
+
+}
+
+.coach-img img {
+    position: relative;
+    left: -58px;
+    z-index: -1;
+    height: 100%;
+    max-width: 110%;
+}
+
+@media (max-width: 991px) {
+    .coach-img img {
+        max-width: 100%;
+        left: unset;
+    }
+
+    .coach-wrap {
+        position: relative;
+        top: -25px;
+    }
+
+    .sports-infrastructure .row {
+        flex-direction: column;
+    }
+
+    .sports-infrastructure .col-md-5 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .sports-infrastructure .col-md-5 img {
+        width: 100%;
+        max-width: none;
+    }
+
+    .sports-infrastructure .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sports-infrastructure .d-flex > div {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .footer .col-md-2, .footer .col-md-4 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .footer .col-md-4 img {
+        margin: 0 auto;
+    }
+    .footer hr {
+        margin-top: 2rem;
+    }
 }
