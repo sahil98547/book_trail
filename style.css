@@ -1,7 +1,5 @@
-/* color
-
-main color : 00d779
-
+/* 
+main in color : 00d779
 */
 
 * {
@@ -11,41 +9,38 @@ main color : 00d779
     font-family: "Montserrat", sans-serif;
 }
 
-.main-color{
-    color:  #00d779;
+.main-color {
+    color: #00d779;
 }
 
-.bg-main-color{
+.bg-main-color {
     background-color: #00d779;
     color: #fff;
 }
 
-.bg-main-color:hover{
+.bg-main-color:hover {
     background-color: #00d779;
     color: #fff;
 }
 
-h1{
+h1 {
     font-size: 48px;
     font-weight: 600;
 }
 
-.coach-wrap h1{
+.coach-wrap h1 {
     color: #fff;
 }
+
 .title-heading {
     font-size: 24px;
 }
 
-.main-wrap{
-    /* margin-top: 50px;  */
-}
-
-.main-wrap-first-img{
+.main-wrap-first-img {
     margin-top: 50px;
 }
 
-.main-wrap-last-img{
+.main-wrap-last-img {
     margin-bottom: 50px;
 }
 
@@ -58,28 +53,12 @@ h1{
     border-bottom-right-radius: 30px;
 }
 
-.free-trial-btn{
+.free-trial-btn {
     width: fit-content;
 }
 
-/* .best-class{
-    margin-top: 50px;
-} */
-
-.best-class-inner-container{
+.best-class-inner-container {
     padding: 40px 50px;
-}
-
-.main-banner img {
-    position: absolute;
-    height: 100%;
-    left: -38px;
-    overflow: scroll;
-    z-index: -2;
-    border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px;
-    transform: scaleX(1.1);
-    width: 105%;
 }
 
 .social-icons {
@@ -106,21 +85,6 @@ h1{
     font-size: 14px;
 }
 
-.footer h4 {
-    font-size: 20px;
-    padding-bottom: 5px;
-}
-
-.background-image-right {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 441px;
-    width: 449px;
-    z-index: -10;
-}
-
 .footer-title {
     font-size: 1.25rem;
     padding-left: 0px;
@@ -134,74 +98,9 @@ h1{
     background-color: #000;
 }
 
-.footer h5 {
-    font-size: 16px;
-}
-
 .column-3 h5 {
     font-size: 15px !important;
     padding-top: 5px;
-}
-
-.best-in-class p {
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-.best-in-class h1 {
-    margin-bottom: 0px;
-}
-
-
-
-/*  media query for pad having size of 1024 */
-
-@media (max-width:1024px) {
-    .footer .col-md-4 img {
-        margin-left: 0px !important;
-        padding-bottom: 5px;
-    }
-
-    .footer .col-md-4 h4 {
-        font-size: 16px !important;
-    }
-
-    .social-icons {
-        padding-left: 0px !important;
-        padding-top: 5px;
-    }
-
-    .footer row {
-        padding: 45px;
-    }
-
-    .heading {
-        font-size: 38px;
-    }
-
-    .subheading {
-        font-size: 13px;
-    }
-
-    .title-heading {
-        font-size: 18px;
-    }
-}
-
-
-@media (max-width: 820px) {
-    .heading {
-        font-size: 32px;
-        font-weight: 600;
-    }
-
-    .subheading {
-        font-size: 14px;
-    }
-
-    .sports-infrastructure img {
-        width: 100%;
-    }
 }
 
 .coach-img img {
@@ -215,11 +114,29 @@ h1{
 
 
 
+/*  media query for pad having size of 1024 */
+
+@media (max-width:1024px) {
+
+    .subheading {
+        font-size: 13px;
+    }
+
+    .title-heading {
+        font-size: 18px;
+    }
+}
+
+
+
+/*  media query for pad having size of 991 */
+
 @media (max-width: 991px) {
     .coach-img img {
         max-width: 100%;
         left: unset;
     }
+
     .coach-education img {
         z-index: 10;
         border-top-left-radius: 30px;
@@ -232,71 +149,27 @@ h1{
     }
 
     .sports-infrastructure .row img {
-        max-width: 550px;
+        max-width: 500px;
     }
-
-    .sports-infrastructure .col-md-5 {
-        max-width: 100%;
-        flex: 0 0 100%;
-    }
-
-    .sports-infrastructure .col-md-5 img {
-        width: 100%;
-        max-width: none;
-    }
-
-    .sports-infrastructure .d-flex>div {
-        width: 100%;
-        text-align: start;
-    }
-
 
     .border-img {
-        border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
     }
 }
 
 
+/*  media query for pad having size of 768 */
+
 @media (max-width: 768px) {
 
-    .footer .col-md-2,
-    .footer .col-md-4 {
-        max-width: 100%;
-        flex: 0 0 100%;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-
-    .footer .col-md-4 img {
-        margin: 0 auto;
-    }
-
-    .footer hr {
-        margin-top: 2rem;
-    }
-
-    .border-img {
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
-    }
-
-    .footer-border {
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-        padding: 10px 10px;
-        padding-bottom: 10px;
-    }
-
-    .column-3 h5 {
-        font-size: 18px !important;
-    }
-
-    h1{
+    h1 {
         font-size: 42px;
     }
-    .main-wrap, .main-wrap-first-img, .main-wrap-last-img{
-        margin-top: 50px; 
+
+    .main-wrap,
+    .main-wrap-first-img,
+    .main-wrap-last-img {
+        margin-top: 50px;
         margin-bottom: 50px;
     }
 }
