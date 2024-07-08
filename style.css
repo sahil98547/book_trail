@@ -11,17 +11,29 @@ main color : 00d779
     font-family: "Montserrat", sans-serif;
 }
 
-.heading {
+/* .heading {
+    font-size: 48px;
+    font-weight: 600;
+} */
+
+h1,h2{
     font-size: 48px;
     font-weight: 600;
 }
-
-.subheading {
+p{
     font-size: 16px;
 }
 
+/* .subheading {
+    font-size: 16px;
+} */
+
 .title-heading {
     font-size: 24px;
+}
+.main-wrap{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .border-content {
@@ -69,11 +81,11 @@ main color : 00d779
     font-size: 14px;
 }
 
-.footer img{
+.footer img {
     margin-left: -70px !important;
 }
 
-.footer h4{
+.footer h4 {
     font-size: 20px;
     padding-bottom: 5px;
 }
@@ -93,16 +105,31 @@ main color : 00d779
     padding-left: 0px;
 }
 
-.footer-border{
+.footer-border {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     padding: 50px 70px;
     padding-bottom: 10px;
 }
 
-.footer h5{
+.footer h5 {
     font-size: 16px;
 }
+
+.column-3 h5 {
+    font-size: 15px !important;
+    padding-top: 5px;
+}
+
+.best-in-class p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.best-in-class h1 {
+    margin-bottom: 0px;
+}
+
 
 
 /*  media query for pad having size of 1024 */
@@ -125,7 +152,21 @@ main color : 00d779
     .footer row {
         padding: 45px;
     }
+
+    .heading {
+        font-size: 38px;
+    }
+
+    .subheading {
+        font-size: 13px;
+    }
+
+    .title-heading {
+        font-size: 18px;
+    }
 }
+
+
 
 /*  media query for mobile having size of 1024 */
 
@@ -143,13 +184,13 @@ main color : 00d779
         width: 100%;
     }
 
-    .footer .row {
+    /* .footer .row {
         padding: 40px;
-    }
+    } */
 
-    .footer img {
+    /* .footer img {
         width: 100%;
-    }
+    } */
 
 }
 
@@ -159,12 +200,20 @@ main color : 00d779
     z-index: -1;
     height: 100%;
     max-width: 110%;
+    object-fit: cover;
 }
+
+
 
 @media (max-width: 991px) {
     .coach-img img {
         max-width: 100%;
         left: unset;
+    }
+    .coach-education img {
+        z-index: 10;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
     }
 
     .coach-wrap {
@@ -172,8 +221,8 @@ main color : 00d779
         top: -25px;
     }
 
-    .sports-infrastructure .row {
-        flex-direction: column;
+    .sports-infrastructure .row img {
+        max-width: 550px;
     }
 
     .sports-infrastructure .col-md-5 {
@@ -186,29 +235,58 @@ main color : 00d779
         max-width: none;
     }
 
-    .sports-infrastructure .d-flex {
-        flex-direction: column;
-        align-items: center;
+    .sports-infrastructure .d-flex>div {
+        width: 100%;
+        text-align: start;
     }
 
-    .sports-infrastructure .d-flex > div {
-        width: 100%;
-        text-align: center;
+
+    .border-img {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
     }
 }
 
 
-@media only screen and (max-width: 767px) {
-    .footer .col-md-2, .footer .col-md-4 {
+@media only screen and (max-width: 768px) {
+
+    .footer .col-md-2,
+    .footer .col-md-4 {
         max-width: 100%;
         flex: 0 0 100%;
         text-align: center;
         margin-bottom: 1rem;
     }
+
     .footer .col-md-4 img {
         margin: 0 auto;
     }
+
     .footer hr {
         margin-top: 2rem;
+    }
+
+    .border-img {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    /* .best-in-class .row {
+        padding: 25px !important;
+    } */
+
+    /* .copyright{
+        margin-left: 10px;
+    } */
+
+    .footer-border {
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        padding: 10px 10px;
+        padding-bottom: 10px;
+    }
+
+    .column-3 h5 {
+        font-size: 18px !important;
     }
 }
