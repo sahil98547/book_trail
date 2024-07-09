@@ -13,6 +13,11 @@ main in color : 00d779
     color: #00d779;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
 .bg-main-color {
     background-color: #00d779;
     color: #fff;
@@ -21,11 +26,6 @@ main in color : 00d779
 .bg-main-color:hover {
     background-color: #00d779;
     color: #fff;
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: 600;
 }
 
 .coach-wrap h1 {
@@ -43,7 +43,6 @@ h1 {
 .main-wrap-last-img {
     margin-bottom: 50px;
 }
-
 .border-content {
     border-radius: 30px;
 }
@@ -113,8 +112,48 @@ h1 {
 }
 
 
-/*  media query for pad having size of 1024 */
+/***************************************************************************************
+Arenas style page.
+*******************************************************************************************/
+.banner-heading a{
+    padding: 10px 55px;
+}
 
+.card{
+    border: 2px solid #00d779;
+    border-radius: 15px;
+}
+
+.card h5{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.card-text{
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.card a{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card-game{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.card img{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    height: 200px;
+}
+
+
+
+/*  media query for pad having size of 1024 */
 @media (max-width:1024px) {
 
     .subheading {
