@@ -113,7 +113,6 @@ h1 {
 }
 
 
-
 /*  media query for pad having size of 1024 */
 
 @media (max-width:1024px) {
@@ -126,7 +125,6 @@ h1 {
         font-size: 18px;
     }
 }
-
 
 
 /*  media query for pad having size of 991 */
@@ -171,5 +169,22 @@ h1 {
     .main-wrap-last-img {
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+}
+
+
+/*  media query for pad having size of 320px */
+
+@media (max-width:320px){
+    h1{
+        font-size: 38px;
+    }
+
+    .best-class-inner-container{
+        padding: 40px 30px;
+    }
+
+    .footer-border{
+        padding: 20px 10px;
     }
 }
