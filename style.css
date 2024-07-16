@@ -10,7 +10,7 @@ main in color : 00d779
 }
 
 .custom-container{
-    max-width: 1560px;
+    max-width: 90%;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -74,7 +74,7 @@ h1 {
 }
 
 .best-class-inner-container {
-    padding: 80px 120px;
+    padding: 110px 120px;
 }
 
 .social-icons {
@@ -110,7 +110,7 @@ h1 {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     padding: 50px 70px;
-    padding-bottom: 10px;
+    padding-bottom: 70px;
     background-color: #000;
 }
 
@@ -127,6 +127,13 @@ h1 {
     max-width: 106%;
     object-fit: cover;
 }
+
+.footer-spacer{
+    background-color: #000;
+    padding-top: 15px;
+}
+
+
 
 
 /***************************************************************************************
