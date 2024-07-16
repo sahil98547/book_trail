@@ -9,6 +9,19 @@ main in color : 00d779
     font-family: "Montserrat", sans-serif;
 }
 
+.custom-container{
+    max-width: 1560px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.custom-container-2{
+    max-width: 1120px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .main-color {
     color: #00d779;
 }
@@ -30,6 +43,10 @@ h1 {
 
 .coach-wrap h1 {
     color: #fff;
+}
+
+.coach-wrap p{
+    padding-right: 60px;
 }
 
 .title-heading {
@@ -57,7 +74,7 @@ h1 {
 }
 
 .best-class-inner-container {
-    padding: 40px 50px;
+    padding: 80px 120px;
 }
 
 .social-icons {
@@ -107,7 +124,7 @@ h1 {
     left: -58px;
     z-index: -1;
     height: 100%;
-    max-width: 110%;
+    max-width: 106%;
     object-fit: cover;
 }
 
