@@ -139,6 +139,10 @@ h1 {
     padding-bottom: 30px;
 }
 
+.inner-content{
+    max-width: 80%;
+}
+
 
 
 
@@ -221,6 +225,10 @@ Arenas style page.
 
     .academy {
         padding-bottom: 0px;
+    }
+
+    .inner-content {
+        max-width: 90%;
     }
 
 }
