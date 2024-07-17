@@ -15,6 +15,7 @@ main in color : 00d779
     margin-left: auto;
     margin-right: auto;
 }
+
 .custom-container-2{
     max-width: 1120px;
     width: 100%;
@@ -54,12 +55,13 @@ h1 {
 }
 
 .main-wrap-first-img {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .main-wrap-last-img {
     margin-bottom: 50px;
 }
+
 .border-content {
     border-radius: 30px;
 }
@@ -187,6 +189,29 @@ Arenas style page.
     .title-heading {
         font-size: 18px;
     }
+
+    .coach-wrap{
+        padding: 45px 0px;
+    }
+
+    .best-class-inner-container {
+        padding: 88px 39px;
+    }
+
+    .custom-container{
+        max-width: 95%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .custom-container-2{
+        max-width: 1120px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 
@@ -224,7 +249,7 @@ Arenas style page.
 @media (max-width: 768px) {
 
     h1 {
-        font-size: 42px;
+        font-size: 38px;
     }
 
     .main-wrap,
@@ -233,6 +258,15 @@ Arenas style page.
         margin-top: 50px;
         margin-bottom: 50px;
     }
+    
+    .coach-wrap{
+        padding: 45px 0px;
+    }
+
+    .best-class-inner-container {
+        padding: 88px 39px;
+    }
+
 }
 
 
