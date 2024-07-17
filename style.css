@@ -9,14 +9,14 @@ main in color : 00d779
     font-family: "Montserrat", sans-serif;
 }
 
-.custom-container{
+.custom-container {
     max-width: 90%;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.custom-container-2{
+.custom-container-2 {
     max-width: 1120px;
     width: 100%;
     margin-left: auto;
@@ -46,7 +46,7 @@ h1 {
     color: #fff;
 }
 
-.coach-wrap p{
+.coach-wrap p {
     padding-right: 60px;
 }
 
@@ -130,10 +130,16 @@ h1 {
     object-fit: cover;
 }
 
-.footer-spacer{
+.footer-spacer {
     background-color: #000;
     padding-top: 15px;
 }
+
+.academy {
+    padding-bottom: 30px;
+}
+
+
 
 
 
@@ -141,37 +147,37 @@ h1 {
 /***************************************************************************************
 Arenas style page.
 *******************************************************************************************/
-.banner-heading a{
+.banner-heading a {
     padding: 10px 55px;
 }
 
-.card{
+.card {
     border: 2px solid #00d779;
     border-radius: 15px;
 }
 
-.card h5{
+.card h5 {
     font-size: 17px;
     font-weight: 700;
 }
 
-.card-text{
+.card-text {
     font-size: 13px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-.card a{
+.card a {
     font-size: 12px;
     font-weight: 500;
 }
 
-.card-game{
+.card-game {
     font-size: 12px;
     font-style: italic;
 }
 
-.card img{
+.card img {
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
     height: 200px;
@@ -190,7 +196,7 @@ Arenas style page.
         font-size: 18px;
     }
 
-    .coach-wrap{
+    .coach-wrap {
         padding: 45px 0px;
     }
 
@@ -198,18 +204,23 @@ Arenas style page.
         padding: 88px 39px;
     }
 
-    .custom-container{
+    .custom-container {
         max-width: 95%;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
-    
-    .custom-container-2{
+
+    .custom-container-2 {
         max-width: 1120px;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+
+    .academy {
+        padding-bottom: 0px;
     }
 
 }
@@ -241,6 +252,7 @@ Arenas style page.
     .border-img {
         border-bottom-right-radius: 0px;
     }
+
 }
 
 
@@ -258,8 +270,8 @@ Arenas style page.
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    
-    .coach-wrap{
+
+    .coach-wrap {
         padding: 45px 0px;
     }
 
@@ -272,16 +284,16 @@ Arenas style page.
 
 /*  media query for pad having size of 320px */
 
-@media (max-width:320px){
-    h1{
+@media (max-width:320px) {
+    h1 {
         font-size: 38px;
     }
 
-    .best-class-inner-container{
+    .best-class-inner-container {
         padding: 40px 30px;
     }
 
-    .footer-border{
+    .footer-border {
         padding: 20px 10px;
     }
 }
