@@ -23,7 +23,7 @@ main in color : 00d779
     margin-right: auto;
 }
 
-.coach-education .coach-wrap{
+.coach-education .coach-wrap {
     padding: 80px 0px;
 }
 
@@ -36,7 +36,7 @@ h1 {
     font-weight: 600;
 }
 
-.inner-content h2{
+.inner-content h2 {
     font-size: 2.5rem;
 }
 
@@ -45,7 +45,7 @@ h1 {
     color: #fff;
 }
 
-.img-container img{
+.img-container img {
     padding-bottom: 15px;
 }
 
@@ -82,9 +82,10 @@ h1 {
 .free-trial-btn {
     width: fit-content;
     height: 50px;
-    line-height: 36px;
+    line-height: 50px;
     font-weight: 600;
     font-size: 18px;
+    padding: 0px 30px;
 }
 
 .best-class-inner-container {
@@ -152,7 +153,7 @@ h1 {
     padding-bottom: 30px;
 }
 
-.inner-content{
+.inner-content {
     max-width: 80%;
 }
 
@@ -161,8 +162,9 @@ h1 {
 /***************************************************************************************
 Arenas style page.
 *******************************************************************************************/
-.banner-heading a {
-    padding: 10px 55px;
+
+.showing-arena{
+    font-size: 32px;
 }
 
 .card {
@@ -181,11 +183,6 @@ Arenas style page.
     margin-bottom: 5px;
 }
 
-.card a {
-    font-size: 12px;
-    font-weight: 500;
-}
-
 .card-game {
     font-size: 12px;
     font-style: italic;
@@ -197,12 +194,133 @@ Arenas style page.
     height: 200px;
 }
 
+.arena-btn {
+    height: 40px;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0px 30px;
+}
 
 
+/***************************************************************************************
+Detail style page.
+*******************************************************************************************/
+
+.dps-intern {
+    padding: 40px 0px;
+}
+
+.sector-50 {
+    line-height: 18px;
+}
+
+.first-block .coach-img img{
+    left: -38px;
+}
+
+.owl-carousel .owl-dots button.owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    background: #000;
+}
+
+.owl-carousel .owl-dots button.active {
+    background: #00d779;
+}
+
+.owl-stage-outer {
+    position: relative;
+}
+
+.owl-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+}
+
+.bannerslider,
+.owl-stage-outer,
+.owl-stage {
+    height: 100%;
+}
+
+.bannerslider {
+    transform: scaleX(1.1);
+    z-index: 0;
+}
+
+.first-block .row .col-lg-5 {
+    z-index: 100 !important;
+}
+
+.owl-stage .owl-item {
+    height: 100%;
+}
+
+.bannerslider .coach-img {
+    height: 100%;
+}
 
 
+.all-circle img {
+    height: 115px;
+}
 
+.owl-carousel-arenas .owl-stage {
+    position: relative;
+}
 
+.owl-carousel-arenas .owl-nav .owl-prev,
+.owl-carousel-arenas .owl-nav .owl-next {
+    font-size: 45px !important;
+    background: #fff !important;
+    border-radius: 50%;
+    border: 2px solid #adb5bd !important;
+}
+
+.owl-carousel-arenas .owl-prev span{
+    padding-bottom: 8px;
+    padding-right: 2px;
+}
+
+.owl-carousel-arenas .owl-next span{
+    padding-bottom: 8px;
+    padding-right: 2px;
+    padding-left: 4px;
+}
+
+.owl-carousel-arenas .owl-prev {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    left: -15px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-carousel-arenas .owl-next {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    right: -15px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /*  media query for pad having size of 1024 */

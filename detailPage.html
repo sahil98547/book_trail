@@ -15,27 +15,59 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+
+
+    <!-- owl carousel css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-
-      <!-- Hero section -->
-      <section class="pt-5 custom-container">
+    <!-- Hero section -->
+    <section class="pt-5 custom-container">
         <div class="container-fluid">
-            <div class="coach-education overflow-hidden">
+            <div class="coach-education overflow-hidden first-block">
                 <div class="row g-0">
                     <div class="col-lg-5 order-lg-1 order-2">
-                        <div
-                            class="coach-wrap bg-dark h-100 d-flex flex-column justify-content-center px-5 border-content">
-                            <h1>DJSA @ DPS International</h1>
-                            <p class="text-white subheading">Empower your coaching career with our comprehensive
-                                training and certification programs.</p>
-                            <a href="#" class="btn bg-main-color free-trial-btn">Book a Trial</a>
+                        <div class="bg-dark px-5 border-content dps-intern">
+                            <h1 class="text-white">DJSA @ DPS International</h1>
+                            <p class="text-white subheading sector-50">Sector 50, Gurugram, HS-01, Golf Course Ext Rd,
+                                Block W, South City ll, Sector 50, Gurugram, Haryana 122001</p>
+                            <p class="text-white subheading mb-1">Opening Hours</p>
+                            <p class="text-white subheading">Monday, Wednesday, Friday</p>
+                            <div style="padding-bottom: 4px; display: flex; gap: 20px;">
+                                <a href="#" class="btn bg-main-color arena-btn">5:30 PM - 7:30 PM</a>
+                                <a href="#" class="btn bg-main-color arena-btn">6:30 PM - 7:30 PM</a>
+                            </div>
+                            <p class="text-white subheading mb-1">Tuesday, Thursday, Saturday</p>
+                            <a href="#" class="btn bg-main-color arena-btn">5:30 PM - 7:30 PM</a>
                         </div>
                     </div>
+
                     <div class="col-lg-7 order-lg-2 order-1">
-                        <div class="coach-img h-100">
-                            <img class="border-img img-fluid" src="./img/banner (1).jpg" alt="Coach Education Image">
+                        <div class="bannerslider owl-carousel owl-carousel-banner">
+                            <div class="coach-img">
+                                <img class="border-img img-fluid" src="./img/banner (1).jpg"
+                                    alt="Coach Education Image">
+                            </div>
+                            <div class="coach-img">
+                                <img class="border-img img-fluid" src="./img/banner (1).jpg"
+                                    alt="Coach Education Image">
+                            </div>
+                            <div class="coach-img">
+                                <img class="border-img img-fluid" src="./img/banner (1).jpg"
+                                    alt="Coach Education Image">
+                            </div>
+                            <div class="coach-img">
+                                <img class="border-img img-fluid" src="./img/banner (1).jpg"
+                                    alt="Coach Education Image">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -44,10 +76,364 @@
     </section>
 
 
+    <section class="sports-available mt-5 custom-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h3>Sports <span class="main-color">Available</span>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="all-circle">
+                        <img src="./img/details/cricket.png" alt="">
+                        <img src="./img/details/football.png" alt="">
+                        <img src="./img/details/Swimming.png" alt="">
+                        <img src="./img/details/Table-Tennis.png" alt="">
+                        <img src="./img/details/tennis.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="amenities-available mt-5 custom-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h3>Amenities <span class="main-color">Available</span></h3>
+                    <div class="all-circle">
+                        <img src="./img/circle.png" alt="">
+                        <img src="./img/circle.png" alt="">
+                        <img src="./img/circle.png" alt="">
+                        <img src="./img/circle.png" alt="">
+                        <img src="./img/circle.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="all-circle">
+                        <img src="./img/details/" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="book-free-trial custom-container mt-5">
+        <div class="container-fluid">
+            <div class="row mb-3">
+                <div class="col">
+                    <h3>Book a <span class="main-color">Free Trial Class</span></h3>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-4">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+
+                <div class="col-4">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" class="form-control" id="phone">
+                </div>
+
+                <div class="col-4">
+
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" class="form-control" id="dob">
+                </div>
+
+                <div class="col-4">
+                    <label for="date">Date</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+
+                <div class="col-4">
+                    <label for="sports">Sports</label>
+                    <input type="text" class="form-control" id="sports">
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col">
+                    <a href="#" class="btn bg-main-color arena-btn">BOOK NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- more arenas section  -->
+    <section class="more-arenas custom-container mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h3>More <span class="main-color">Arenas</span></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="main-boxes owl-carousel owl-carousel-arenas">
+                <div class="item">
+                    <div class="card h-100">
+                        <img src="https://pushsports.in/wp-content/uploads/2024/02/dharav-high-school.jpg"
+                            class="img-fluid h-50" alt="Cricket Academy">
+                        <div class="card-body">
+                            <h5 class="card-title">Push Sports Cricket Academy, Lajpat Nagar</h5>
+                            <p class="card-text">Central Market, Lajpat Nagar, New Delhi</p>
+                            <p class="card-game">Cricket Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Eos, reprehenderit.</p>
+                            <a href="#" class="btn bg-main-color arena-btn">Free Trial Class</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card h-100">
+                        <img src="https://pushsports.in/wp-content/uploads/2024/02/dharav-high-school.jpg"
+                            class="img-fluid h-50" alt="Cricket Academy">
+                        <div class="card-body">
+                            <h5 class="card-title">Push Sports Cricket Academy, Lajpat Nagar</h5>
+                            <p class="card-text">Central Market, Lajpat Nagar, New Delhi</p>
+                            <p class="card-game">Cricket Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Eos, reprehenderit.</p>
+                            <a href="#" class="btn bg-main-color arena-btn">Free Trial Class</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card h-100">
+                        <img src="https://pushsports.in/wp-content/uploads/2024/02/dharav-high-school.jpg"
+                            class="img-fluid h-50" alt="Cricket Academy">
+                        <div class="card-body">
+                            <h5 class="card-title">Push Sports Cricket Academy, Lajpat Nagar</h5>
+                            <p class="card-text">Central Market, Lajpat Nagar, New Delhi</p>
+                            <p class="card-game">Cricket Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Eos, reprehenderit.</p>
+                            <a href="#" class="btn bg-main-color arena-btn">Free Trial Class</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card h-100">
+                        <img src="https://pushsports.in/wp-content/uploads/2024/02/dharav-high-school.jpg"
+                            class="img-fluid h-50" alt="Cricket Academy">
+                        <div class="card-body">
+                            <h5 class="card-title">Push Sports Cricket Academy, Lajpat Nagar</h5>
+                            <p class="card-text">Central Market, Lajpat Nagar, New Delhi</p>
+                            <p class="card-game">Cricket Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Eos, reprehenderit.</p>
+                            <a href="#" class="btn bg-main-color arena-btn">Free Trial Class</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card h-100">
+                        <img src="https://pushsports.in/wp-content/uploads/2024/02/dharav-high-school.jpg"
+                            class="img-fluid h-50" alt="Cricket Academy">
+                        <div class="card-body">
+                            <h5 class="card-title">Push Sports Cricket Academy, Lajpat Nagar</h5>
+                            <p class="card-text">Central Market, Lajpat Nagar, New Delhi</p>
+                            <p class="card-game">Cricket Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit.
+                                Eos, reprehenderit.</p>
+                            <a href="#" class="btn bg-main-color arena-btn">Free Trial Class</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="map-section mt-5 custom-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224326.5689532408!2d77.01352692312545!3d28.53663446772352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3ca11bd3885%3A0xa8c8bbc715303fb3!2sPush%20Sports%20Cricket%20Academy!5e0!3m2!1sen!2sin!4v1721383781284!5m2!1sen!2sin"
+                        width="100%" height="600"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer section -->
+    <section class="footer best-in-class text-white pt-3 custom-container mt-5">
+        <div class="container-fluid">
+            <div class="footer-border">
+                <div class="row text-center">
+                    <div class="col-lg-2 col-md-6 mt-lg-0 mt-4 order-2 order-lg-1">
+                        <div class="colum-1 text-center">
+                            <h4 class="footer-title">Company</h4>
+                            <div class="d-flex flex-column">
+                                <a href="#">About Us</a>
+                                <a href="#">Our Team</a>
+                                <a href="#">Our Locations</a>
+                                <a href="#">Partner with Us</a>
+                                <a href="#">Careers</a>
+                                <a href="#">Blogs</a>
+                                <a href="#">Contact Us</a>
+                                <a href="#">Products</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 mt-lg-0 mt-4 order-2 order-lg-1">
+                        <div class="column-2">
+                            <h4 class="footer-title">Locations</h4>
+                            <div class="d-flex flex-column">
+                                <a href="#">Delhi</a>
+                                <a href="#">Gurgaon</a>
+                                <a href="#">Noida & Gr Noida</a>
+                                <a href="#">Ghaziabad</a>
+                                <a href="#">Jaipur</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-lg-0 mt-4 order-1 order-lg-1">
+                        <div class="column-3">
+                            <img class="" width="220px" height="80px"
+                                src="https://pushsports.in/wp-content/uploads/2024/05/PUSH-Logo-New-Final-Color_white-2048x741.png"
+                                alt="footer-logo">
+                            <h5 class="footer-title">INDIA'S NEW PLAYGROUND</h5>
+                            <div class="social-icons justify-content-center">
+                                <i class="fab fa-linkedin-in"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 mt-lg-0 mt-4 order-2">
+                        <div class="column-4">
+                            <h4 class="footer-title">Our Services</h4>
+                            <div class="d-flex flex-column">
+                                <a href="#">Infrastructure Services</a>
+                                <a href="#">In-school Programmes</a>
+                                <a href="#">After-School Programmes</a>
+                                <a href="#">Pay to Play</a>
+                                <a href="#">Scholarships</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 mt-lg-0 mt-4 order-2">
+                        <div class="column-5">
+                            <h4 class="footer-title">Policies</h4>
+                            <div class="d-flex flex-column">
+                                <a href="#">Privacy Policy</a>
+                                <a href="#">Shipping & Other T&C</a>
+                                <a href="#">Cancellation & Refund Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="best-in-class text-white pt-1 custom-container">
+        <div class="container-fluid">
+            <div class="footer-spacer">
+                <div class="row">
+                    <div class="col-12 order-2">
+                        <div class="col-12 text-center coypright">
+                            <p>© 2024 Push Sports | Privacy & Terms | Terms & Conditions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- owl carousel js file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel-banner').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                nav: false,
+                autoplay: true,
+                dots: true,
+                center: true,
+                autoplaySpeed: 4000,
+                margin: 10,
+                responsive: {
+                    0: {
+                        items: 1,
+
+                    },
+                    600: {
+                        items: 1,
+                    },
+                    1000: {
+                        items: 1,
+                    }
+                }
+            });
+
+            $('.owl-carousel-arenas').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                nav: true,
+                autoplay: true,
+                autoplaySpeed: 0,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1,
+
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    1000: {
+                        items: 4,
+                    }
+                }
+            });
+        });
+    </script>
+
 </body>
 
 </html>
