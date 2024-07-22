@@ -445,11 +445,11 @@
 
             var owl = $('.owl-carousel-arenas');
             owl.owlCarousel({
-                loop: false, // Set loop to false to handle disabling correctly
+                loop: false,
                 margin: 10,
                 responsiveClass: true,
                 nav: true,
-                autoplay: true,
+                autoplay: false,
                 autoplaySpeed: 0,
                 dots: false,
                 responsive: {
@@ -472,6 +472,7 @@
                 $('.owl-prev').toggleClass('disabled', currentItem === 0);
                 $('.owl-next').toggleClass('disabled', currentItem === totalItems - event.page.size);
             });
+            
         });
     </script>
 

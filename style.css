@@ -295,7 +295,7 @@ Detail style page.
     font-size: 45px !important;
     background: #fff !important;
     border-radius: 50%;
-    border: 2px solid #adb5bd !important;
+    border: 2px solid #495057 !important;
 }
 
 .owl-carousel-arenas .owl-prev span {
@@ -308,7 +308,7 @@ Detail style page.
     padding-right: 2px;
     padding-left: 4px;
 }
-
+    
 .owl-carousel-arenas .owl-prev {
     position: absolute;
     height: 30px;
