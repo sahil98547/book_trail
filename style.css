@@ -31,7 +31,8 @@ main in color : 00d779
     color: #00d779;
 }
 
-h1 {
+h1,
+h2 {
     font-size: 48px;
     font-weight: 600;
 }
@@ -163,7 +164,9 @@ h1 {
 Arenas style page.
 *******************************************************************************************/
 
-.showing-arena{
+
+
+.showing-arena {
     font-size: 32px;
 }
 
@@ -202,10 +205,20 @@ Arenas style page.
     padding: 0px 30px;
 }
 
+.arena-btn:active {
+    background-color: #00d779 !important;
+    color: #fff !important;
+    border-color: #00d779 !important;
+}
+
 
 /***************************************************************************************
 Detail style page.
 *******************************************************************************************/
+
+.dps-international h1 {
+    line-height: 50px;
+}
 
 .dps-intern {
     padding: 40px 0px;
@@ -215,7 +228,7 @@ Detail style page.
     line-height: 18px;
 }
 
-.first-block .coach-img img{
+.first-block .coach-img img {
     left: -38px;
 }
 
@@ -285,12 +298,12 @@ Detail style page.
     border: 2px solid #adb5bd !important;
 }
 
-.owl-carousel-arenas .owl-prev span{
+.owl-carousel-arenas .owl-prev span {
     padding-bottom: 8px;
     padding-right: 2px;
 }
 
-.owl-carousel-arenas .owl-next span{
+.owl-carousel-arenas .owl-next span {
     padding-bottom: 8px;
     padding-right: 2px;
     padding-left: 4px;
@@ -327,7 +340,7 @@ Detail style page.
 @media (max-width:1024px) {
 
     .subheading {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .title-heading {
@@ -356,7 +369,6 @@ Detail style page.
         margin-right: auto;
     }
 
-
     .academy {
         padding-bottom: 0px;
     }
@@ -365,6 +377,28 @@ Detail style page.
         max-width: 90%;
     }
 
+    .first-block .coach-img img {
+        left: -24px;
+    }
+
+}
+
+@media (max-width:1024px) and (min-width:821px) {
+
+    /* Detail style page. */
+    .dps-international .dps-intern {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+
+    .dps-international h1 {
+        font-size: 45px !important;
+    }
+
+    .dps-international .arena-btn {
+        font-size: 13px;
+        padding: 0px 20px;
+    }
 }
 
 
@@ -395,13 +429,32 @@ Detail style page.
         border-bottom-right-radius: 0px;
     }
 
+    .dps-international .dps-intern {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    .bannerslider .owl-item .coach-img img {
+        display: block;
+        width: 91%;
+    }
+
+    .first-block .coach-img img {
+        left: 34px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .first-block .coach-img img {
+        left: 32px;
+    }
 }
 
 
 /*  media query for pad having size of 768 */
 
 @media (max-width: 768px) {
-
     h1 {
         font-size: 38px;
     }
@@ -423,9 +476,26 @@ Detail style page.
 
 }
 
-@media (max-width:510px) {
-    .custom-container, .custom-container-2{
+
+@media (max-width:600px) {
+    .custom-container,
+    .custom-container-2 {
         max-width: 100%;
+    }
+
+    .dps-international .dps-intern {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .dps-intern a {
+        font-weight: 500;
+        font-size: 16px;
+        padding: 0px 17px;
+    }
+
+    .first-block .coach-img img {
+        left: 17px;
     }
 }
 
