@@ -241,7 +241,7 @@ Detail style page.
     border: none;
     padding: 0 !important;
     font: inherit;
-    background: #000;
+    background: #fff;
 }
 
 .owl-carousel .owl-dots button.active {
