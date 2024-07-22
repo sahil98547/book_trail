@@ -423,6 +423,12 @@ Detail style page.
 
 }
 
+@media (max-width:510px) {
+    .custom-container, .custom-container-2{
+        max-width: 100%;
+    }
+}
+
 
 /*  media query for pad having size of 320px */
 
