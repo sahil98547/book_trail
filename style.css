@@ -362,6 +362,9 @@ Detail style page.
     margin-top: 8px;
 }
 
+.amenities .amenitie p{
+    font-weight: 700;
+}
 
 /*  media query for pad having size of 1024 */
 @media (max-width:1024px) {
