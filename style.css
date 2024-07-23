@@ -523,6 +523,10 @@ Detail style page.
     .first-block .coach-img img {
         left: 15px;
     }
+
+    .dps-intern a {
+        font-size: 12px;
+    }
 }
 
 
