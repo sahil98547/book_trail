@@ -163,9 +163,6 @@ h2 {
 /***************************************************************************************
 Arenas style page.
 *******************************************************************************************/
-
-
-
 .showing-arena {
     font-size: 32px;
 }
@@ -283,7 +280,7 @@ Detail style page.
 
 
 .all-circle img {
-    height: 115px;
+    height: 120px;
 }
 
 .owl-carousel-arenas .owl-stage {
@@ -335,6 +332,32 @@ Detail style page.
     align-items: center;
 }
 
+.sports-available{
+    gap: 25px;
+    padding-left: 15px;
+}
+
+.all-circle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.amenitie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.amenitie img {
+    max-width: 80%;
+    height: auto;
+}
+
+.amenitie p {
+    margin-top: 8px;
+}
+
 
 /*  media query for pad having size of 1024 */
 @media (max-width:1024px) {
@@ -384,7 +407,6 @@ Detail style page.
 }
 
 @media (max-width:1024px) and (min-width:821px) {
-
     /* Detail style page. */
     .dps-international .dps-intern {
         padding-left: 25px !important;
@@ -403,7 +425,6 @@ Detail style page.
 
 
 /*  media query for pad having size of 991 */
-
 @media (max-width: 991px) {
     .coach-img img {
         max-width: 100%;
@@ -453,7 +474,6 @@ Detail style page.
 
 
 /*  media query for pad having size of 768 */
-
 @media (max-width: 768px) {
     h1 {
         font-size: 38px;
