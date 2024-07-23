@@ -333,8 +333,8 @@ Detail style page.
 }
 
 .sports-available{
-    gap: 25px;
-    padding-left: 15px;
+    gap: 32px;
+    padding-left: 9px;
 }
 
 .all-circle {
@@ -519,9 +519,14 @@ Detail style page.
     }
 }
 
+@media (max-width: 360px) {
+    .first-block .coach-img img {
+        left: 15px;
+    }
+}
+
 
 /*  media query for pad having size of 320px */
-
 @media (max-width:320px) {
     h1 {
         font-size: 38px;
@@ -535,6 +540,7 @@ Detail style page.
         padding: 20px 10px;
     }
 }
+
 
 @media(max-width:1920px){
     .coach-education .dps-intern{
