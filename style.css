@@ -72,7 +72,8 @@ h2 {
 }
 
 .border-content {
-    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 .border-img {
@@ -91,6 +92,10 @@ h2 {
 
 .best-class-inner-container {
     padding: 80px 120px;
+}
+
+.best-in-class{
+    border-radius: 30px;
 }
 
 .social-icons {
@@ -138,10 +143,9 @@ h2 {
 
 .coach-img img {
     position: relative;
-    left: -58px;
     z-index: -1;
     height: 100%;
-    max-width: 106%;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -198,8 +202,8 @@ Arenas style page.
     height: 40px;
     line-height: 40px;
     font-weight: 500;
-    font-size: 16px;
-    padding: 0px 30px;
+    font-size: 13px;
+    padding: 0px 14px;
 }
 
 .arena-btn:active {
@@ -226,7 +230,7 @@ Detail style page.
 }
 
 .first-block .coach-img img {
-    left: -38px;
+    left: 0;
 }
 
 .owl-carousel .owl-dots button.owl-dot {
@@ -251,7 +255,7 @@ Detail style page.
 
 .owl-dots {
     position: absolute;
-    left: 50%;
+    left: 45%;
     bottom: 0%;
 }
 
@@ -305,7 +309,7 @@ Detail style page.
     padding-right: 2px;
     padding-left: 4px;
 }
-    
+
 .owl-carousel-arenas .owl-prev {
     position: absolute;
     height: 30px;
@@ -332,7 +336,7 @@ Detail style page.
     align-items: center;
 }
 
-.sports-available{
+.sports-available {
     gap: 32px;
     padding-left: 9px;
 }
@@ -378,6 +382,10 @@ Detail style page.
         padding: 88px 39px;
     }
 
+    .best-in-class{
+        border-radius: 30px;
+    }
+
     .custom-container {
         max-width: 95%;
         width: 100%;
@@ -401,12 +409,13 @@ Detail style page.
     }
 
     .first-block .coach-img img {
-        left: -24px;
+        left: 0;
     }
 
 }
 
 @media (max-width:1024px) and (min-width:821px) {
+
     /* Detail style page. */
     .dps-international .dps-intern {
         padding-left: 25px !important;
@@ -418,7 +427,7 @@ Detail style page.
     }
 
     .dps-international .arena-btn {
-        font-size: 13px;
+        font-size: 18px;
         padding: 0px 20px;
     }
 }
@@ -458,20 +467,18 @@ Detail style page.
     .bannerslider .owl-item .coach-img img {
         display: block;
         width: 91%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .first-block .coach-img img {
-        left: 34px;
+        left: 0;
     }
 
-}
-
-@media (max-width:768px) {
-    .first-block .coach-img img {
-        left: 32px;
+    .border-content{
+        border-bottom-right-radius: 30px;
     }
 }
-
 
 /*  media query for pad having size of 768 */
 @media (max-width: 768px) {
@@ -498,6 +505,7 @@ Detail style page.
 
 
 @media (max-width:600px) {
+
     .custom-container,
     .custom-container-2 {
         max-width: 100%;
@@ -510,18 +518,18 @@ Detail style page.
 
     .dps-intern a {
         font-weight: 500;
-        font-size: 16px;
-        padding: 0px 17px;
+        font-size: 14px;
+        padding: 0px 15px;
     }
 
     .first-block .coach-img img {
-        left: 17px;
+        left: 0;
     }
 }
 
 @media (max-width: 360px) {
     .first-block .coach-img img {
-        left: 15px;
+        left: 0;
     }
 
     .dps-intern a {
@@ -550,8 +558,8 @@ Detail style page.
 }
 
 
-@media(max-width:1920px){
-    .coach-education .dps-intern{
+@media(max-width:1920px) {
+    .coach-education .dps-intern {
         height: 100%;
     }
 }
