@@ -535,3 +535,9 @@ Detail style page.
         padding: 20px 10px;
     }
 }
+
+@media(max-width:1920px){
+    .coach-education .dps-intern{
+        height: 100%;
+    }
+}
