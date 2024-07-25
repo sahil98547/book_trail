@@ -1,0 +1,44 @@
+
+@media only screen and (max-width: 600px) {
+    .bike-model-slider-desertxfamily .bike_model_slider {
+        width: 224px !important;
+        height: 300px !important;
+    }
+
+   .bike-model-slider-desertxfamily .swiper-slide .bike_model_slider_para{
+     margin: 10px 8px;
+     font-size:14px;
+     width:100%;
+     font-weight: 700;
+     font-family: 'ducati-condensed', Arial, sans-serif;
+   }
+
+   .bike-model-slider-desertxfamily .swiper-container .swiper-slide img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+
+   .bike-model-slider-desertxfamily .swiper-slide .bike_model_slider_mode{
+    font-family: 'ducati-condensed', Arial, sans-serif;
+    position: absolute;
+    padding: 20px 10px;
+    font-size:14px;
+    left:0;
+    top:0;
+   }
+
+   .bike-model-slider-desertxfamily .bike_model_slider_mode:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0f0f0f), to(rgba(15, 15, 15, 0)));
+    background-image: linear-gradient(to bottom, #0f0f0f, rgba(15, 15, 15, 0));
+    pointer-events: none;
+    }
+}
