@@ -24,6 +24,10 @@ main in color : 00d779
     margin-right: auto;
 }
 
+.coach-education{
+    border-radius: 30px;
+}
+
 .coach-education .coach-wrap {
     padding: 80px 0px;
 }

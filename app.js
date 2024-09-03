@@ -1,31 +1,3 @@
-// document.addEventListener('DOMContentLoaded', function () {
-//     const headings = document.querySelectorAll('.unique-counter-section .heading');
-
-//     headings.forEach(function (heading) {
-//         const countTo = parseInt(heading.getAttribute('data-countto'), 10);
-//         const countDuration = parseInt(heading.getAttribute('data-duration'), 10);
-
-//         const startTime = performance.now();
-
-//         function updateCounter(timestamp) {
-//             const elapsed = timestamp - startTime;
-//             const progress = Math.min(elapsed / countDuration, 1);
-//             const currentCount = Math.floor(progress * countTo);
-
-//             heading.textContent = currentCount;
-
-//             if (progress < 1) {
-//                 requestAnimationFrame(updateCounter);
-//             } else {
-//                 heading.textContent = `${countTo}+`;
-//             }
-//         }
-//         requestAnimationFrame(updateCounter);
-//     });
-// });
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     // Function to handle the counter animation
     function startCounterAnimation(heading) {
