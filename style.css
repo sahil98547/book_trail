@@ -8,6 +8,7 @@ main in color : 00d779
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
+  
 
 .custom-container {
     max-width: 90%;
@@ -88,6 +89,12 @@ h2 {
     font-weight: 600;
     font-size: 18px;
     padding: 0px 30px;
+}
+
+.free-trial-btn:hover {
+    background-color: #fff;
+    color: #00d779;
+    border: 1px solid #00d779;
 }
 
 .best-class-inner-container {

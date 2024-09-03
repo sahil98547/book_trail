@@ -15,13 +15,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!-- owl carousel css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <style>
+        .owl-prev.disabled,
+        .owl-next.disabled {
+            pointer-events: none;
+            opacity: 0.5;
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Hero section -->
     <section class="pt-5 custom-container">
         <div class="container-fluid">
-            <div class="coach-education overflow-hidden">
+            <div class="coach-education overflow-hidden" style="border-radius: 30px;">
                 <div class="row g-0">
                     <div class="col-lg-5 order-lg-1 order-2">
                         <div
@@ -33,9 +56,31 @@
                             <a href="#" class="btn bg-main-color free-trial-btn">Book a Trial</a>
                         </div>
                     </div>
+                    <!-- <div class="col-lg-7 order-lg-2 order-1">
+                            <div class="coach-img h-100">
+                                <img class="border-img img-fluid" src="./img/banner (1).jpg"
+                                    alt="Coach Education Image">
+                            </div>
+                    </div> -->
+
                     <div class="col-lg-7 order-lg-2 order-1">
-                        <div class="coach-img h-100">
-                            <img class="border-img img-fluid" src="./img/banner (1).jpg" alt="Coach Education Image">
+                        <div class="bannerslider owl-carousel owl-carousel-banner">
+                            <div class="coach-img h-100">
+                                <img class="border-img img-fluid" src="./img/banner (1).jpg"
+                                    alt="Coach Education Image">
+                            </div>
+                            <div class="coach-img h-100">
+                                <img class="border-img img-fluid" src="./img/banner (1).jpg"
+                                    alt="Coach Education Image">
+                            </div>
+                            <div class="coach-img h-100">
+                                <img class="border-img img-fluid" src="./img/banner (1).jpg"
+                                    alt="Coach Education Image">
+                            </div>
+                            <div class="coach-img h-100">
+                                <img class="border-img img-fluid" src="./img/banner (1).jpg"
+                                    alt="Coach Education Image">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -49,17 +94,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div>
+                    <div data-aos="fade-up">
                         <h2 class="heading">Why <span class="main-color">Push Sports?</span></h2>
                         <p class="pb-3 subheading">We offer world-class facilities, experienced coaches, and a holistic
                             approach to World-class arenas, elite coaches, and competitive exposure with a 15:1
                             student-coach ratio, all underpinned by an advanced training curriculum. A sports academy
-                            unparalleled in scope and ambition. 
+                            unparalleled in scope and ambition.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="row mt-4">
+            <div class="row mt-4" data-aos="fade-up">
                 <div class="col-lg-3 col-sm-6">
                     <div class="img-container">
                         <img src="./img/Infrastructure.png" alt="">
@@ -76,7 +121,7 @@
                             Professional level.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6"> 
+                <div class="col-lg-3 col-sm-6">
                     <div class="img-container">
                         <img src="./img/gamified-tool-icon.png" alt="">
                         <h3 class="title-heading">Gamified Assessment
@@ -103,7 +148,7 @@
 
 
     <!-- Best class section -->
-    <section class="best-in-class text-white main-wrap mt-5 custom-container">
+    <!-- <section class="best-in-class text-white main-wrap mt-5 custom-container">
         <div class="container-fluid">
             <div class="best-in-class bg-main-color">
                 <div class="best-class-inner-container">
@@ -147,19 +192,67 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
+
+    <!-- Best class section -->
+<section class="best-in-class text-white main-wrap mt-5 custom-container unique-counter-section" data-aos="fade-up">
+    <div class="container-fluid">
+        <div class="best-in-class bg-main-color">
+            <div class="best-class-inner-container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="inner-content">
+                            <h2>Find out why we're best-in-class</h2>
+                            <p class="subheading">The #1 email marketing and automations platform* that recommends
+                                ways to get more opens, clicks, and sales.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="mb-2 academy">
+                                    <h2 class="heading" data-countto="10" data-duration="2000">0</h2>
+                                    <p class="subheading">Number of Academy</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-2">
+                                    <h2 class="heading" data-countto="80" data-duration="2000">0</h2>
+                                    <p class="subheading">Number of Coaches</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-2">
+                                    <h2 class="heading" data-countto="3000" data-duration="2000">0</h2>
+                                    <p class="subheading">Total Students</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-2">
+                                    <h2 class="heading" data-countto="100" data-duration="2000">0</h2>
+                                    <p class="subheading">State Players</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
     <!-- Sport Infrastructure -->
     <section class="sports-infrastructure custom-container-2">
         <div class="container">
             <div class="row gx-lg-5 main-wrap-first-img">
-                <div class="col-lg-6 mb-4 d-flex justify-content-center">
+                <div class="col-lg-6 mb-4 d-flex justify-content-center" data-aos="fade-right">
                     <img class="w-100" src="./img/sports_infrastructure.png" alt="Image 1"
                         style="position: relative; z-index: 2;">
                 </div>
 
-                <div class="col-lg-6 my-auto">
+                <div class="col-lg-6 my-auto" data-aos="fade-left">
                     <div>
                         <h2 class="heading">Sports <span class="main-color d-block">Infrastructure</span></h2>
                         <p class="subheading">World-class arenas, elite coaches, and competitive exposure with a 15:1
@@ -172,7 +265,7 @@
 
 
             <div class="row gx-lg-5">
-                <div class="col-lg-6 my-auto order-lg-1 order-2">
+                <div class="col-lg-6 my-auto order-lg-1 order-2" data-aos="fade-right">
                     <div>
                         <h2>Multi Sport <span class="main-color d-block">Academy</span></h2>
                         <p class="subheading">World-class arenas, elite coaches, and competitive exposure with a 15:1
@@ -183,18 +276,18 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6  d-flex justify-content-center mb-4 order-lg-2 order-1">
+                <div class="col-lg-6  d-flex justify-content-center mb-4 order-lg-2 order-1" data-aos="fade-left">
                     <img class="w-100" src="./img/multi_academy.png" alt="Image 2">
                 </div>
             </div>
 
 
             <div class="row gx-lg-5 main-wrap">
-                <div class="col-lg-6 mb-4 d-flex justify-content-center">
+                <div class="col-lg-6 mb-4 d-flex justify-content-center" data-aos="fade-right">
                     <img class="w-100" src="./img/school_hub.png" alt="Image 1">
                 </div>
 
-                <div class="col-lg-6 my-auto">
+                <div class="col-lg-6 my-auto" data-aos="fade-left">
                     <div>
                         <h2 class="heading">Sports
                             <span class="main-color d-block">School Hub</span>
@@ -209,7 +302,7 @@
 
 
             <div class="row gx-lg-5 main-wrap-last-img">
-                <div class="col-lg-6 my-auto order-lg-1 order-2">
+                <div class="col-lg-6 my-auto order-lg-1 order-2" data-aos="fade-right">
                     <div>
                         <h2 class="heading">Multi Sport
                             <span class="main-color d-block">Pay-n-Play</span>
@@ -218,11 +311,11 @@
                             student-coach ratio, all underpinned by an advanced training curriculum. A sports academy
                             unparalleled in scope and ambition.
                         </p>
-                        <a href="#" class="btn bg-main-color free-trial-btn" style="color: #fff;">Book a Trial</a>
+                        <a href="#" class="btn bg-main-color free-trial-btn">Book a Trial</a>
                     </div>
                 </div>
 
-                <div class="col-lg-6 d-flex justify-content-center mb-4 order-lg-2 order-1">
+                <div class="col-lg-6 d-flex justify-content-center mb-4 order-lg-2 order-1" data-aos="fade-left">
                     <img class="w-100" src="./img/pay-n-play.png" alt="Image 2">
                 </div>
             </div>
@@ -326,6 +419,84 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+    <!-- owl carousel js file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel-banner').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                nav: false,
+                autoplay: false,
+                dots: true,
+                center: true,
+                autoplaySpeed: 3000,
+                margin: 10,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 1,
+                    },
+                    1000: {
+                        items: 1,
+                    }
+                }
+            });
+
+            var owl = $('.owl-carousel-arenas');
+            owl.owlCarousel({
+                loop: false,
+                margin: 10,
+                responsiveClass: true,
+                nav: true,
+                autoplay: false,
+                autoplaySpeed: 0,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 3,
+                    },
+                    1000: {
+                        items: 4,
+                    }
+                }
+            });
+
+            owl.on('changed.owl.carousel', function (event) {
+                var totalItems = event.item.count;
+                var currentItem = event.item.index;
+
+                $('.owl-prev').toggleClass('disabled', currentItem === 0);
+                $('.owl-next').toggleClass('disabled', currentItem === totalItems - event.page.size);
+            });
+
+        });
+    </script>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>
